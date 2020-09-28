@@ -1,0 +1,763 @@
+img{
+    max-width: 100%;
+}
+
+.container li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.container nav a{
+    color: black;
+    font-family:'Montserrat';
+    font-size: 20px;
+
+}
+
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container nav ul a{
+    font-family:'Montserrat';
+}
+
+/* закончен header------------------------------- */
+
+.slash{
+    background-image: url(../img/picture1.svg);
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: 120px 10px;
+
+}
+
+.slash h1{
+    font-family:'Montserrat';
+    padding-right: 50px;
+    ;
+    
+}
+
+.slash p{
+    font-family:'Montserrat';
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    
+}
+
+.coolman{
+    margin-left: -15px;
+}
+
+.zapolni a{
+    font-family:'Montserrat';
+    color: white;
+    background-color: black;
+    text-decoration: white;
+    border-radius: 10px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.zapolni a:hover{
+    color: white;
+}
+
+.zapolni{
+    padding-left: 210px;
+    padding-top: 70px;
+}
+
+.help{
+    background-color: rgb(21, 21, 21);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.help h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    padding-bottom: 50px;
+}
+
+.help .col-md-4 .circle{
+    background-color: #8DC8AC;
+    width: 218px;
+    height: 218px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+
+}
+
+.help .col-md-4 p{
+    color: white;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.help .col-md-4{
+    text-align: center;
+}
+
+.circle img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.gethelp a{
+    color: black;
+    background-color: white;
+    padding-right:20px;
+    padding-left:20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.gethelp a:hover{
+    color: black;
+}
+
+.gethelp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}   
+
+
+
+
+
+/* ЧАСТЬ ВЛАДА ----------------------------------------------------*/
+
+
+
+
+
+
+.whattosdo h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 49px; 
+    display: flex;
+    justify-content: center;
+    color:white;
+    margin-left: 10px;
+    margin-bottom: 100px;
+   
+}
+.whattosdo p{
+    font-family: 'Montserrat', sans-serif;  
+    margin-left: 10px;
+}
+#page{
+    background: linear-gradient(180deg, #151515 0%, rgba(21, 21, 21, 0.95) 51.56%, #151515 100%);
+}
+.border{
+    border:solid 1px;
+    background:#F0F0F0;
+    border-radius:10px;
+    padding: 20px 0;
+    padding-left: 10px;
+
+    
+}
+.whattosdo span{
+    
+    font-style:normal;
+    font-weight:900;
+    font-size:32px;
+    color: #000000;
+    border:solid 1px #8DC8AC;
+    background:#8DC8AC;  
+    display:inline-block;
+    padding:4px 20px;
+    border-radius:100%;
+    width:61px;
+    
+       
+    
+}
+b{
+font-family: Open Sans; 
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+color: #FFFFFF;
+}
+#anketa p{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 42px;
+ color: #FFFFFF;       
+}
+#anketa{
+    display:flex;
+    justify-content:center;
+    border: white solid 1px;
+    padding:50px 45px;
+    border-radius: 10px;
+
+    
+}
+.chel{
+    margin-bottom: 20px;
+}
+.zavisim a{
+    text-decoration: none;
+    border: white solid 1px;
+    background: white;
+    color: black;  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    border-radius: 10px;
+    display: block;
+    width: 295px;
+    text-align: center;
+    height: 68px;
+    padding-top: 15px;
+}
+.zavisim a:hover{
+ color: black;
+}
+#anketa p{
+   margin-bottom:35px;
+   font-weight: 0;
+}
+.free{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+margin-left: 75px;
+color: gray;
+}
+.zavisim a:hover{
+text-decoration: none;
+}
+#slider p{
+    color: white;
+}
+
+#slider a{
+    color: white;
+}
+
+#slider .onsmog{
+font-family: 'Montserrat', sans-serif;   
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 49px;
+
+
+}
+
+#slider{
+
+text-align: center
+
+
+}
+.carousel-inner{
+    min-height: 400px;
+}
+#carouselExampleIndicators .carousel-indicators li{
+    border-radius: 100%;
+    width: 17px;
+    height: 17px;
+}
+
+
+
+/* ФУТЕР---------------------------- */
+
+
+
+
+
+
+#end {
+    background: linear-gradient(180deg, #151515 0%, rgba(21, 21, 21, 0.95) 51.56%, #151515 100%);
+}   
+    #end .dav{
+    color: white;
+    font-size: 20px;
+    border: solid 2px white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 8px;
+    }
+    
+    #end div{
+    display: inline-block;
+    margin: 70px 125px;
+    }
+    
+    #end a{
+    color: white;
+    }
+    
+    #end p{
+    color: white ;
+    }
+
+
+    /* КОНЕЦ ФУТОРА------------------- */
+
+
+
+    /* ЧАСТЬ ТАИ------------------------ */
+
+  
+    #questions .col-md-7{
+        background-image: url(../img/pic1.png);
+        background-repeat: no-repeat;
+    
+    }
+    #questions .col-md-5{
+        background-image: url(../img/_.svg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #questions .row{
+        height: 500px;
+    }
+    #questions p{
+        font-family:'Montserrat', sans-serif ;
+        color: #696969;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    #questions .col-md-5 div{
+        display: flex;
+        align-items: center;
+        width: 267px;
+        padding-bottom: 15px;
+    }
+    #questions h1{
+        text-align: center;
+        margin-bottom: 120px;
+    }
+    
+    #questions .col-md-5 div p{
+        padding-left: 10px;
+    
+    
+    }
+    #form{
+        background-color: black;
+        color: white;
+        font-family:'Montserrat', sans-serif ;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    #profile label{
+        display: block;
+        margin-left: 48px;
+    }
+    #profile span{
+        background-color: #8DC8AC;
+        color: black;
+        font-weight: bold;
+        padding: 7px 8px;
+        margin-right: 15px;
+    }
+    #profile{
+        padding: 40px;
+    }
+    #profile p{
+        margin-top: 40px;
+    }
+    #profile .results button{
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }
+    #profile .results{
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    .results a{
+        color: black;
+        font-family:'Montserrat';
+        background-color: white;
+        font-size: 20px;
+        padding: 15px 25px;
+        border-radius: 5px;
+
+    }
+
+
+
+        /* КОНЕЦ ЧАСТИ ТАИ--------------------- */
+
+
+
+
+        /* МЕДИА ТАИ */
+    
+    @media(max-width: 425px){
+        #questions .boy{
+            min-height: 500px;
+        }
+        #questions .row{
+            height: 0%;
+        }
+        #questions h1{
+            margin-top: 80px;
+        }
+    }
+
+
+    #phonedesctop{
+        display: none;
+        }
+    
+     @media(max-width: 425px){
+        #phonedesctop{
+        display: block;
+        text-align: center;
+        
+        }
+         
+        #pcdesctop{
+        display: none;
+        }
+        }
+
+        /* МЕДИА ТАИ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* РАБОТА ЯРОМИРА--------------------------- */
+    
+    
+    #help .col-md-5 {
+       background-image: url(../img/_.png);
+       background-repeat: no-repeat;
+       background-position: center center;
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+   #help .col-md-7{
+       background-image: url(../img/1685\ 1.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+       
+   #help .row{
+   height: 500px;
+   }
+   #opros{
+       background-color: rgb(14, 13, 13) ;
+   }
+   #opros h2{
+       color: white;
+       display: flex;
+       flex-direction: column;
+      justify-content: center;
+      text-align: center;
+   }
+   #opros .col-md-6{
+       color: white;
+       font-size: 30px;
+       font-weight: bolder;
+   }
+   #opros h2{
+       font-weight: 10;
+       padding-top: 50px;
+       padding-bottom: 80px;
+   }
+   
+   #opros h3{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+       padding-top: 110px;
+       font-weight: normal;
+   }
+   #opros a {
+       display: inline-block;
+       color: rgb(17, 17, 17);
+       text-decoration: none;
+       padding: .5em 2em;
+       outline: none;
+       border-width: 2px 0;
+       border-style: solid none;
+       border-color: white ;
+       border-radius: 6px;
+       background: linear-gradient(white, white) rgb(255, 255, 255);
+       transition: 0.2s;
+      
+       
+     } 
+     #opros a:hover { background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) rgb(255, 255, 255); }
+     #opros a:active { background: linear-gradient(white, white) white; }
+     #opros .barder{
+         border: solid 2px white;
+     }
+    #opros .row{
+        padding-bottom: 100px;
+    }
+    #opros .sas{
+        padding-bottom: 50px;
+    }
+    #opros .sasa{
+        font-size: 20px;
+        text-align: center;
+    }
+
+        /* КОНЕЦ РАБОТЫ ЯРОМИРА-------------------- */
+
+
+    
+        /* МЕДИА ЯРОМИРА--------------------- */
+
+    select{
+       width: 100%;
+       border-radius: 10px;   
+   }
+
+   .imgg img{
+       margin: 5px;
+   }
+
+   button{
+       margin-top: 22px;
+       border-radius: 8px;
+   }
+
+   @media(max-width: 425px){
+       
+   }
+        /* МЕДИА ЯРОМИРА--------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* РАБОТА АНТОНА---------------------------- */
+
+
+
+   .krutaya{
+    left: 42px;
+    max-width: 100%;
+}
+
+#help .col-md-5 {
+    background-image: url(../img/_.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    }
+
+#help .col-md-7{
+    background-image: url(../img/1685\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#help .row{
+    height: 500px;
+    }
+
+main{
+    background-color: #151515;
+    text-align: center;
+    padding-bottom: 165px;
+}
+
+main h2{
+    padding-top: 86px;
+    padding-bottom: 155px;
+    color: #fff;
+}
+
+#gamers{
+    background-color: #151515;
+    color: #fff;
+}
+
+#gamers .time p{
+    border: solid 1px #fff;
+    border-radius: 10px;
+    padding: 23px;
+    text-align: left;
+}
+
+#gamers .time{
+    display: flex;
+    justify-content: center;
+}
+
+#gamers .col-md-6{
+    text-align: center;
+}
+
+#gamers .time .after{
+    margin-left: 20px;
+    color: #8DC8AC;
+    border-color: #8DC8AC;
+    text-align: right;
+    padding-left: 41px;
+}
+
+
+
+/* МЕДИА АНТОНА------------------- */
+
+#moblogo{
+    display: none;
+}
+
+
+@media(max-width:1024px){
+    .col-md-7 img{
+        width: 560px;
+        height: 480px;
+    }
+}
+
+@media(max-width:1024px){
+    .col-md-7{
+        background-color: #151515;
+        width: 390px;
+        height: 291px;
+    }
+}
+/* МЕДИА АНТОНА------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+.otvetik{
+    font-family:'Montserrat' ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 400px;
+    font-size: 50px;
+    
+}
+
+
+.onvetik h1{
+    color: #151515;
+
+}
